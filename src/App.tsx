@@ -1,6 +1,12 @@
 import Menu from './components/Menu';
 import Page from './pages/Page';
-import React from 'react';
+import Home from './pages/Home';
+import { TramiteWrapper } from './components/TramiteWrapper';
+import MenuTramites from './pages/MenuTramites'
+import { Tabs } from './components/Tabs';
+import React, { useEffect } from "react";
+import { setupConfig } from '@ionic/react'
+import { Plugins, Capacitor } from "@capacitor/core";
 import { IonApp, IonRouterOutlet, IonSplitPane } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
@@ -26,15 +32,38 @@ import './theme/variables.css';
 
 const App: React.FC = () => {
 
+  useEffect(() => {
+    if (Capacitor.isNative) {
+      Plugins.App.addListener("backButton", (e) => {
+        if (window.location.pathname === "/") {
+          // Show A Confirm Box For User to exit app or not
+          let ans = window.confirm("Salir?");
+          if (ans) {
+            Plugins.App.exitApp();
+          } 
+        } else if (window.location.pathname === "/home") {
+           // Show A Confirm Box For User to exit app or not
+          let ans = window.confirm("Salir?");
+          if (ans) {
+            Plugins.App.exitApp();
+          } 
+        } 
+      });
+    }
+  }, []);
+
   return (
     <IonApp>
       <IonReactRouter>
         <IonSplitPane contentId="main">
           <Menu />
           <IonRouterOutlet id="main">
+            <Route path="/home" component={Home} exact/>
+            <Route path="/tramites" component={MenuTramites} exact/>
             <Route path="/page/:name" component={Page} exact />
-            <Redirect from="/" to="/page/Inbox" exact />
-          </IonRouterOutlet>
+            <Route path="/tramite/:id" component={TramiteWrapper} exact />    
+            <Redirect from="/" to="/home" exact />
+          </IonRouterOutlet>          
         </IonSplitPane>
       </IonReactRouter>
     </IonApp>

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "^2.4.2",
     "@capacitor/core": "2.4.2",
     "@ionic/react": "^5.0.7",
     "@ionic/react-router": "^5.0.7",
@@ -24,10 +25,11 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER='none' react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "android-run": "ionic capacitor copy android && cd android && ./gradlew assembleDebug && ./gradlew installDebug && cd .."
   },
   "eslintConfig": {
     "extends": "react-app"
