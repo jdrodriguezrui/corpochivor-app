@@ -1,5 +1,6 @@
 const Proyectos : any[] = [
   {
+    "color": "vigilance",
     "id" : "vigilancia",
     "titulo": "AUTORIDAD AMBIENTAL: CONTROL, VIGILANCIA Y SEGUIMIENTO DE LOS RECURSOS NATURALES",
     "lider": "Alexandra Garzón Sarmiento",
@@ -15,6 +16,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "education",
     "id" : "educacion",
     "titulo": "EDUCACIÓN AMBIENTAL Y PARTICIPACIÓN CIUDADANA",
     "lider": "Rodrigo Parra Galindo",
@@ -34,6 +36,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "territory",
     "id" : "territorio",
     "titulo": "PLANIFICACIÓN Y ORDENAMIENTO AMBIENTAL DEL TERRITORIO",
     "lider": "Zonia Buitrago",
@@ -49,6 +52,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "management",
     "id" : "gestion",
     "titulo": "FORTALECIMIENTO PARA LA GESTIÓN AMBIENTAL",
     "lider": "Yanid Avila",
@@ -64,6 +68,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "hydric",
     "id" : "hidrico",
     "titulo": "ADMINISTRACIÓN Y MANEJO ADECUADO DEL RECURSO HÍDRICO",
     "lider": "Karen Perilla",
@@ -79,6 +84,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "woods",
     "id" : "bosques",
     "titulo": "GESTIÓN INTEGRAL DEL RECURSO FORESTAL",
     "lider": "Nestor Valero",
@@ -90,6 +96,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "biodiversity",
     "id" : "biodiversidad",
     "titulo": "ECOSISTEMAS, ESTRÁTEGICOS Y BIODIVERSIDAD",
     "lider": "Nixon Sarmiento",
@@ -117,6 +124,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "weather",
     "id" : "climatico",
     "titulo": "CAMBIO CLIMATICO Y GESTIÓN DEL RIESGO",
     "lider": "Edgar Iván Lopéz ",
@@ -132,6 +140,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "business",
     "id" : "negocios",
     "titulo": "NEGOCIOS VERDES",
     "lider": "Mario Barreto",
@@ -167,6 +176,7 @@ const Proyectos : any[] = [
     ]
   },
   {
+    "color": "economy",
     "id" : "economia",
     "titulo": "ECONOMÍA CIRCULAR",
     "lider": "Jorge Castillo",
@@ -185,7 +195,7 @@ export function getProyectos(){
 
 export function getProyectosCards(){
   return Proyectos.map((proyecto)=>{
-    return {id:proyecto.id, titulo:proyecto.titulo}
+    return {id:proyecto.id, titulo:proyecto.titulo, color:proyecto.color}
   })
 }
 

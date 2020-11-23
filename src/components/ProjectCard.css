@@ -2,3 +2,14 @@ ion-img {
   max-width: 200px;
   max-height: 200px;
 }
+
+ion-item {
+  position: relative;
+}
+
+ion-card {
+  border-right: 10px solid white;
+  border-left: 10px solid white;
+  border-top: 10px solid white;
+  margin: 10px;
+}

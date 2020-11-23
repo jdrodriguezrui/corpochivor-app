@@ -21,7 +21,7 @@ const Page: React.FC = () => {
         
         {
           getProyectosCards().map((card,index)=>{
-            return <ProjectCard id={card.id} titulo={card.titulo} key={index}/>
+            return <ProjectCard color={card.color} id={card.id} titulo={card.titulo} key={index}/>
           })
         }
         

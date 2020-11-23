@@ -1,47 +1,57 @@
 import React from "react";
-import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonText, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonIcon, IonItem, IonPage, IonToolbar, IonLabel } from '@ionic/react';
 import { useParams } from 'react-router';
 import { getProyecto } from '../content/Proyectos';
+import './Proyecto.css'
 
 export const Proyecto : React.FC<any> = () =>{
   const { id } = useParams<{ id: string; }>();  
   const data = getProyecto(id)
+  const bigImg = id.charAt(0).toUpperCase() + id.slice(1) + 2;
   return(
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonMenuButton />
-          </IonButtons>
-          <IonTitle>{data.titulo}</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      
-      <IonContent fullscreen>
-      <IonText color="primary">
-        <h1>{data.titulo}</h1>
-        </IonText>
-        <IonText color="primary">
-          <h2>Lider</h2>
-        </IonText>
-        <p>{data.lider}</p>
-        <IonText color="primary">
-          <h1>Grupos de valor</h1>
-        </IonText>
-        {
-          data.grupos.map((grupo:any,index:number)=>{
-            return <div key={index}>
-              <IonText color="secondary">
-                <h2>{grupo.titulo}</h2>
-              </IonText>
-              <IonText color="secondary">
-                <h2>Objetivo:</h2>
-              </IonText>
-              <p>{grupo.objetivo}</p>
-            </div>
-          })
-        }
+      <IonToolbar>
+        <IonItem>
+          <img src = {"assets/images/"+data.id+".png"}  slot="start" width="80" height="80" alt={data.titulo}/>
+          {data.titulo}
+        </IonItem>
+      </IonToolbar>
+
+      <IonContent>
+        <IonCard>
+          <IonCardHeader color={data.color}>
+            <IonCardTitle>
+            Lider
+            </IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            <IonIcon name="person" slot="start"/>
+            <IonLabel>{data.lider}</IonLabel>
+          </IonCardContent>
+        </IonCard>
         
+        <IonCard >
+          <IonCardHeader color={data.color}>
+            <IonCardTitle>
+              Grupos de valor
+            </IonCardTitle>
+          </IonCardHeader>
+          {
+            data.grupos.map((grupo:any,index:number)=>{
+              return(
+                <IonCard>
+                  <IonLabel color="dark">
+                    <h2>{grupo.titulo}</h2>
+                  </IonLabel>
+                  <IonLabel>
+                    {grupo.objetivo}
+                  </IonLabel>
+                </IonCard>
+              )
+            })
+          }          
+        </IonCard>
+        <img src={"assets/images/"+bigImg+".jpg"} alt={data.id}/>
       </IonContent>
     </IonPage>
   )

@@ -45,69 +45,6 @@ const proyectosPage : AppPage = {
   mdIcon: icons.accessibilitySharp
 }
 
-const proyectPages: AppPage[] = [  
-  {
-    title: 'Autoridad Ambiental',
-    url: '/page/AutoridadAmbiental',
-    iosIcon: icons.eyeOutline,
-    mdIcon: icons.eyeSharp
-  },
-  {
-    title: 'Educación Ambiental',
-    url: '/page/EducacionAmbiental',
-    iosIcon: icons.schoolOutline,
-    mdIcon: icons.schoolSharp
-  },
-  {
-    title: 'Planificación y Ordenamiento Ambiental',
-    url: '/page/PlanificacionOrdenamiento',
-    iosIcon: icons.mapOutline,
-    mdIcon: icons.mapSharp
-  },
-  {
-    title: 'Fortalecimiento para la Gestión Ambiental',
-    url: '/page/GestionAmbiental',
-    iosIcon: icons.analyticsOutline,
-    mdIcon: icons.analyticsSharp
-  },
-  {
-    title: 'Administración del Recurso Hídrico',
-    url: '/page/AdministracionHidrica',
-    iosIcon: icons.waterOutline,
-    mdIcon: icons.waterSharp
-  },
-  {
-    title: 'Gestión del Recurso Forestal',
-    url: '/page/GestionForestal',
-    iosIcon: icons.leafOutline,
-    mdIcon: icons.leafSharp
-  },
-  {
-    title: 'Ecosistemas Estratégicos',
-    url: '/page/EcosistemasEstrategicos',
-    iosIcon: icons.bugOutline,
-    mdIcon: icons.bugSharp
-  },
-  {
-    title: 'Cambio Climático y Gestión del Riesgo',
-    url: '/page/GestionRiesgo',
-    iosIcon: icons.warningOutline,
-    mdIcon: icons.warningSharp
-  },
-  {
-    title: 'Negocios Verdes',
-    url: '/page/NegociosVerdes',
-    iosIcon: icons.storefrontOutline,
-    mdIcon: icons.storefrontSharp
-  },
-  {
-    title: 'Economía Circular',
-    url: '/page/EconomiaCircular',
-    iosIcon: icons.syncCircleOutline,
-    mdIcon: icons.syncCircleSharp
-  },
-];
-
 const Menu: React.FC = () => {
   const location = useLocation();
 
@@ -136,18 +73,7 @@ const Menu: React.FC = () => {
               <IonIcon slot="start" ios={proyectosPage.iosIcon} md={proyectosPage.mdIcon} />
               <IonLabel>{proyectosPage.title}</IonLabel>
             </IonItem>
-          </IonMenuToggle>
-          <IonListHeader color="secondary">Proyectos</IonListHeader>
-          {proyectPages.map((appPage, index) => {
-            return (
-              <IonMenuToggle key={index} autoHide={false}>
-                <IonItem className={location.pathname === appPage.url ? 'selected' : ''} routerLink={appPage.url} routerDirection="none" lines="none" detail={false}>
-                  <IonIcon slot="start" ios={appPage.iosIcon} md={appPage.mdIcon} />
-                  <IonLabel>{appPage.title}</IonLabel>
-                </IonItem>
-              </IonMenuToggle>
-            );
-          })}
+          </IonMenuToggle>    
         </IonList>
       </IonContent>
     </IonMenu>

@@ -1,4 +1,4 @@
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonIcon, IonItem, IonLabel } from "@ionic/react";
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonIcon, IonItem, IonLabel } from "@ionic/react";
 import * as icons from 'ionicons/icons';
 import React from "react";
 import './Subpaso.css'
@@ -28,8 +28,8 @@ export const Subpaso: React.FC<{subpasoData: SubpasoData}> = (props) => {
       <IonItem>
         <IonCard>          
           <IonCardHeader>
-          <IonIcon ios={renderSubpasoIcon(data.type)} md={renderSubpasoIcon(data.type)} />
-          <IonLabel>{renderSubpasoType(data.type)}</IonLabel>
+          <IonIcon slot="start" ios={renderSubpasoIcon(data.type)} md={renderSubpasoIcon(data.type)} />
+          <IonCardTitle>{renderSubpasoType(data.type)}</IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
             {renderSubpasoContent(data.type, data)}

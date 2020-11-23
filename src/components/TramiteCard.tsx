@@ -6,7 +6,7 @@ export const TramiteCard: React.FC<{id: string, text: string}> = (props) => {
   return(
     <IonCard routerLink={"/tramite/"+props.id.toString()}>
       <IonCardContent>
-        <IonText>{props.text}</IonText>
+        <IonText color="dark">{props.text}</IonText>
       </IonCardContent>
     </IonCard>
   )

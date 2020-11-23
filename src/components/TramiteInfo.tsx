@@ -1,4 +1,4 @@
-import { IonButton, IonContent, IonText } from "@ionic/react";
+import { IonButton, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonLabel, IonText } from "@ionic/react";
 import React from "react";
 import { TramiteState } from "./Tramite";
 

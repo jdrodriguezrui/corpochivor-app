@@ -3,6 +3,8 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
+  --ion-safe-area-top: 20px;
+  --ion-safe-area-bottom: 22px;
   /** primary **/
   --ion-color-primary: #007dc5;
   --ion-color-primary-rgb: 1,102,175;
@@ -74,6 +76,202 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** vigilance **/
+  --ion-color-vigilance: #a3ded2;
+  --ion-color-vigilance-rgb: 163,222,210;
+  --ion-color-vigilance-contrast: #084b3f;
+  --ion-color-vigilance-contrast-rgb: 8,75,63;
+  --ion-color-vigilance-shade:  #a3ded2;
+  --ion-color-vigilance-tint:  #a3ded2;      
+  
+  /** management **/
+  --ion-color-management: #bf9746;
+  --ion-color-management-rgb: 191,151,70;
+  --ion-color-management-contrast: #684500;
+  --ion-color-management-contrast-rgb: 139,93,0;
+  --ion-color-management-shade: #a8853e;
+  --ion-color-management-tint: #c5a159;  
+
+  /** education **/ 
+  --ion-color-education: #ded8a3;
+  --ion-color-education-rgb: 222,216,163;
+  --ion-color-education-contrast: #575517;
+  --ion-color-education-contrast-rgb: 87,85,23;
+  --ion-color-education-shade: #c3be8f;
+  --ion-color-education-tint: #e1dcac;    
+  
+  /** woods **/ 
+  --ion-color-woods: #a3ccba;
+  --ion-color-woods-rgb: 163,204,186;
+  --ion-color-woods-contrast: #16562e;
+  --ion-color-woods-contrast-rgb: 22,86,46;
+  --ion-color-woods-shade: #8fb4a4;
+  --ion-color-woods-tint: #acd1c1;
+  
+  /** hydric **/
+  --ion-color-hydric: #a3d2d3;
+  --ion-color-hydric-rgb: 163,210,211;
+  --ion-color-hydric-contrast: #003447;
+  --ion-color-hydric-contrast-rgb: 0,52,71;
+  --ion-color-hydric-shade: #8fb9ba;
+  --ion-color-hydric-tint: #acd7d7;    
+  
+  /** biodiversity **/
+  --ion-color-biodiversity: #aedea6;
+  --ion-color-biodiversity-rgb: 174,222,166;
+  --ion-color-biodiversity-contrast: #044a06;
+  --ion-color-biodiversity-contrast-rgb: 4,74,6;
+  --ion-color-biodiversity-shade: #99c392;
+  --ion-color-biodiversity-tint: #b6e1af;
+  
+  /** territory **/
+  --ion-color-territory: #fca168;
+  --ion-color-territory-rgb: 252,161,104;
+  --ion-color-territory-contrast: #9a0000;
+  --ion-color-territory-contrast-rgb: 154,0,0;
+  --ion-color-territory-shade: #de8e5c;
+  --ion-color-territory-tint: #fcaa77;
+  
+  
+  
+  /** business **/
+  --ion-color-business: #a0dbc0;
+  --ion-color-business-rgb: 160,219,192;
+  --ion-color-business-contrast: #024825;
+  --ion-color-business-contrast-rgb: 2,72,37;
+  --ion-color-business-shade: #8dc1a9;
+  --ion-color-business-tint: #aadfc6;
+  
+  
+  
+  /** economy **/
+  --ion-color-economy: #abbac7;
+  --ion-color-economy-rgb: 171,186,199;
+  --ion-color-economy-contrast: #021e49;
+  --ion-color-economy-contrast-rgb: 2,30,73;
+  --ion-color-economy-shade: #96a4af;
+  --ion-color-economy-tint: #b3c1cd;
+  
+  
+  
+  /** header **/
+  --ion-color-header: #1ea650;
+  --ion-color-header-rgb: 30,166,80;
+  --ion-color-header-contrast: #ffffff;
+  --ion-color-header-contrast-rgb: 255,255,255;
+  --ion-color-header-shade: #1a9246;
+  --ion-color-header-tint: #35af62;
+  
+  
+  
+  /** weather **/
+  --ion-color-weather: #dea3a3;
+  --ion-color-weather-rgb: 222,163,163;
+  --ion-color-weather-contrast: #480100;
+  --ion-color-weather-contrast-rgb: 72,1,0;;
+  --ion-color-weather-shade: #c38f8f;
+  --ion-color-weather-tint: #e1acac;
+  
+}
+
+.ion-color-management {
+  --ion-color-base: var(--ion-color-management);
+  --ion-color-base-rgb: var(--ion-color-management-rgb);
+  --ion-color-contrast: var(--ion-color-management-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-management-contrast-rgb);
+  --ion-color-shade: var(--ion-color-management-shade);
+  --ion-color-tint: var(--ion-color-management-tint);
+}
+
+.ion-color-education {
+  --ion-color-base: var(--ion-color-education);
+  --ion-color-base-rgb: var(--ion-color-education-rgb);
+  --ion-color-contrast: var(--ion-color-education-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-education-contrast-rgb);
+  --ion-color-shade: var(--ion-color-education-shade);
+  --ion-color-tint: var(--ion-color-education-tint);
+}
+  
+.ion-color-woods {
+  --ion-color-base: var(--ion-color-woods);
+  --ion-color-base-rgb: var(--ion-color-woods-rgb);
+  --ion-color-contrast: var(--ion-color-woods-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-woods-contrast-rgb);
+  --ion-color-shade: var(--ion-color-woods-shade);
+  --ion-color-tint: var(--ion-color-woods-tint);
+}
+
+.ion-color-vigilance {
+  --ion-color-base: var(--ion-color-vigilance);
+  --ion-color-base-rgb: var(--ion-color-vigilance-rgb);
+  --ion-color-contrast: var(--ion-color-vigilance-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vigilance-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vigilance-shade);
+  --ion-color-tint: var(--ion-color-vigilance-tint);
+}
+
+.ion-color-weather {
+  --ion-color-base: var(--ion-color-weather);
+  --ion-color-base-rgb: var(--ion-color-weather-rgb);
+  --ion-color-contrast: var(--ion-color-weather-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-weather-contrast-rgb);
+  --ion-color-shade: var(--ion-color-weather-shade);
+  --ion-color-tint: var(--ion-color-weather-tint);
+}
+
+.ion-color-header {
+  --ion-color-base: var(--ion-color-header);
+  --ion-color-base-rgb: var(--ion-color-header-rgb);
+  --ion-color-contrast: var(--ion-color-header-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-header-contrast-rgb);
+  --ion-color-shade: var(--ion-color-header-shade);
+  --ion-color-tint: var(--ion-color-header-tint);
+}
+
+.ion-color-economy {
+  --ion-color-base: var(--ion-color-economy);
+  --ion-color-base-rgb: var(--ion-color-economy-rgb);
+  --ion-color-contrast: var(--ion-color-economy-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-economy-contrast-rgb);
+  --ion-color-shade: var(--ion-color-economy-shade);
+  --ion-color-tint: var(--ion-color-economy-tint);
+  }
+
+.ion-color-business {
+  --ion-color-base: var(--ion-color-business);
+  --ion-color-base-rgb: var(--ion-color-business-rgb);
+  --ion-color-contrast: var(--ion-color-business-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-business-contrast-rgb);
+  --ion-color-shade: var(--ion-color-business-shade);
+  --ion-color-tint: var(--ion-color-business-tint);
+}
+
+.ion-color-territory {
+  --ion-color-base: var(--ion-color-territory);
+  --ion-color-base-rgb: var(--ion-color-territory-rgb);
+  --ion-color-contrast: var(--ion-color-territory-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-territory-contrast-rgb);
+  --ion-color-shade: var(--ion-color-territory-shade);
+  --ion-color-tint: var(--ion-color-territory-tint);
+}
+
+.ion-color-biodiversity {
+  --ion-color-base: var(--ion-color-biodiversity);
+  --ion-color-base-rgb: var(--ion-color-biodiversity-rgb);
+  --ion-color-contrast: var(--ion-color-biodiversity-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-biodiversity-contrast-rgb);
+  --ion-color-shade: var(--ion-color-biodiversity-shade);
+  --ion-color-tint: var(--ion-color-biodiversity-tint);
+}
+
+.ion-color-hydric {
+  --ion-color-base: var(--ion-color-hydric);
+  --ion-color-base-rgb: var(--ion-color-hydric-rgb);
+  --ion-color-contrast: var(--ion-color-hydric-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-hydric-contrast-rgb);
+  --ion-color-shade: var(--ion-color-hydric-shade);
+  --ion-color-tint: var(--ion-color-hydric-tint);
 }
 
 @media (prefers-color-scheme: dark) {
