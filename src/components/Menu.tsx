@@ -8,7 +8,6 @@ import {
   IonListHeader,
   IonMenu,
   IonMenuToggle,
-  IonNote,
   IonTitle,
   IonToolbar,
 } from '@ionic/react';
@@ -37,6 +36,13 @@ const tramitesPage : AppPage = {
   url: '/tramites',
   iosIcon: icons.fileTrayStackedOutline,
   mdIcon: icons.fileTrayStackedSharp
+}
+
+const proyectosPage : AppPage = {
+  title: 'Proyectos',
+  url: '/proyectos',
+  iosIcon: icons.accessibilityOutline,
+  mdIcon: icons.accessibilitySharp
 }
 
 const proyectPages: AppPage[] = [  
@@ -126,7 +132,10 @@ const Menu: React.FC = () => {
               <IonIcon slot="start" ios={tramitesPage.iosIcon} md={tramitesPage.mdIcon} />
               <IonLabel>{tramitesPage.title}</IonLabel>
             </IonItem>
-
+            <IonItem className={location.pathname === proyectosPage.url ? 'selected' : ''} routerLink={proyectosPage.url} routerDirection="none" lines="none" detail={false}>
+              <IonIcon slot="start" ios={proyectosPage.iosIcon} md={proyectosPage.mdIcon} />
+              <IonLabel>{proyectosPage.title}</IonLabel>
+            </IonItem>
           </IonMenuToggle>
           <IonListHeader color="secondary">Proyectos</IonListHeader>
           {proyectPages.map((appPage, index) => {

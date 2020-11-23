@@ -2,23 +2,17 @@ import { IonCard, IonCardContent, IonCol, IonGrid, IonImg, IonRow } from "@ionic
 import React from "react";
 import './ProjectCard.css'
 
-export interface ProjectCardProps {
-  img: String,
-  text: String,
-  url: String
-}
-
-export const ProjectCard: React.FC<ProjectCardProps> = (props) => {
+const ProjectCard: React.FC<{id: String, titulo: String}> = (props) => {
   return(
-    <IonCard routerLink={props.url.toString()}>
+    <IonCard routerLink={"/proyecto/"+props.id.toString()}>
       <IonCardContent>
         <IonGrid>
           <IonRow>
             <IonCol>
-              <IonImg src={props.img.toString()}/>            
+              <IonImg src={"assets/images/"+props.id.toString() + ".png"}/>            
             </IonCol>
             <IonCol>
-            {props.text}
+            {props.titulo}
               </IonCol>
           </IonRow>
         </IonGrid>
@@ -26,3 +20,5 @@ export const ProjectCard: React.FC<ProjectCardProps> = (props) => {
     </IonCard>
   )
 };
+
+export default ProjectCard

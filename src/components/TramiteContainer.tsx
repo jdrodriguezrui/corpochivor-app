@@ -1,6 +1,5 @@
-import { IonButtons, IonContent, IonHeader, IonLabel, IonList, IonMenuButton, IonSegment, IonSegmentButton, IonText, IonTitle, IonToolbar } from "@ionic/react";
+import { IonButtons, IonContent, IonHeader, IonMenuButton, IonSegment, IonSegmentButton, IonTitle, IonToolbar } from "@ionic/react";
 import React, { useState } from "react";
-import { StaticRouter } from "react-router";
 import { Paso } from "./Paso";
 import {TramiteState} from './Tramite'
 import {TramiteInfo} from './TramiteInfo'

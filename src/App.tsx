@@ -1,11 +1,10 @@
 import Menu from './components/Menu';
 import Page from './pages/Page';
 import Home from './pages/Home';
+import Proyectos from './pages/Proyectos';
 import { TramiteWrapper } from './components/TramiteWrapper';
 import MenuTramites from './pages/MenuTramites'
-import { Tabs } from './components/Tabs';
 import React, { useEffect } from "react";
-import { setupConfig } from '@ionic/react'
 import { Plugins, Capacitor } from "@capacitor/core";
 import { IonApp, IonRouterOutlet, IonSplitPane } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
@@ -29,6 +28,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import { Proyecto } from './components/Proyecto';
 
 const App: React.FC = () => {
 
@@ -60,8 +60,10 @@ const App: React.FC = () => {
           <IonRouterOutlet id="main">
             <Route path="/home" component={Home} exact/>
             <Route path="/tramites" component={MenuTramites} exact/>
+            <Route path="/proyectos" component={Proyectos} exact/>
             <Route path="/page/:name" component={Page} exact />
-            <Route path="/tramite/:id" component={TramiteWrapper} exact />    
+            <Route path="/tramite/:id" component={TramiteWrapper} exact />
+            <Route path="/proyecto/:id" component={Proyecto} exact /> 
             <Redirect from="/" to="/home" exact />
           </IonRouterOutlet>          
         </IonSplitPane>
