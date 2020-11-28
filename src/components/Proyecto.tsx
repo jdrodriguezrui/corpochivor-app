@@ -11,7 +11,7 @@ export const Proyecto : React.FC<any> = () =>{
   return(
     <IonPage>
       <IonToolbar>
-        <IonItem>
+        <IonItem color={data.color}>
           <img src = {"assets/images/"+data.id+".png"}  slot="start" width="80" height="80" alt={data.titulo}/>
           {data.titulo}
         </IonItem>

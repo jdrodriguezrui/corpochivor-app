@@ -27,7 +27,7 @@ export const TramiteContainer: React.FC<Props> = (props) => {
   return(
   <div>
     <IonHeader>
-      <IonToolbar>
+      <IonToolbar color="secondary">
         <IonButtons slot="start">
           <IonMenuButton />
         </IonButtons>

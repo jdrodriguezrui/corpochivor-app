@@ -29,6 +29,8 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import { Proyecto } from './components/Proyecto';
+import PQRS from './pages/PQRS';
+import Denuncia from './pages/Denuncia';
 
 const App: React.FC = () => {
 
@@ -61,6 +63,8 @@ const App: React.FC = () => {
             <Route path="/home" component={Home} exact/>
             <Route path="/tramites" component={MenuTramites} exact/>
             <Route path="/proyectos" component={Proyectos} exact/>
+            <Route path="/pqrs" component={PQRS} exact/>
+            <Route path="/denuncias" component={Denuncia} exact/>
             <Route path="/page/:name" component={Page} exact />
             <Route path="/tramite/:id" component={TramiteWrapper} exact />
             <Route path="/proyecto/:id" component={Proyecto} exact /> 
