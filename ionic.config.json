@@ -1,7 +1,0 @@
-{
-  "name": "tpi-corpochivor-app",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}
