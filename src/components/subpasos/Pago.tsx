@@ -1,6 +1,5 @@
 
 
-import { IonButton } from "@ionic/react";
 import React from "react";
 import {SubpasoData} from "../Subpaso"
 

@@ -1,4 +1,4 @@
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonIcon, IonItem, IonLabel } from "@ionic/react";
+import { IonCard, IonCardContent, IonCardHeader,IonCardTitle, IonIcon, IonItem } from "@ionic/react";
 import * as icons from 'ionicons/icons';
 import React from "react";
 import './Subpaso.css'

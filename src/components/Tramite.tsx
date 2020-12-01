@@ -1,6 +1,5 @@
-import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from "@ionic/react";
-import React, {useEffect, useState} from "react";
-import { useParams } from "react-router";
+import { IonPage } from "@ionic/react";
+import React from "react";
 import ExploreContainer from "./ExploreContainer";
 import {TramiteContainer} from "./TramiteContainer"
 

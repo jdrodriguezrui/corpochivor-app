@@ -1,4 +1,4 @@
-import { IonButton, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonLabel, IonText } from "@ionic/react";
+import { IonButton, IonContent, IonText } from "@ionic/react";
 import React from "react";
 import { TramiteState } from "./Tramite";
 
@@ -18,7 +18,7 @@ export const TramiteInfo: React.FC<Props> = (props) => {
             </IonText>
             <IonText>{tramiteState.descripcion}</IonText>
             <IonText color="secondary"className="title">
-              <h3>Resultado obtenido</h3>
+              <h3>Resultado y plazos de espera</h3>
             </IonText>
             <IonText>{tramiteState.resultado}</IonText>
             <IonButton expand="block"color="primary" href={tramiteState.url}>              

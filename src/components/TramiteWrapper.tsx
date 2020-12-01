@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router';
-import {Tramite, TramiteState} from './Tramite'
+import {Tramite} from './Tramite'
 import {getTramite} from '../content/Tramites'
 
 export const TramiteWrapper : React.FC<any> = () =>{

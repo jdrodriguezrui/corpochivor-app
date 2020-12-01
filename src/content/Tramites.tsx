@@ -678,6 +678,375 @@ export const Tramites : any = {
             }
         ]
     },
+    "T20602":{
+        "titulo":"Registro de plantaciones forestales protectoras",
+        "descripcion":"Registrar las áreas forestales protectoras con el fin de proteger o recuperar algún recurso natural renovable y de la cual se pueda tener aprovechamiento indirecto",
+        "url":"http://visor.suit.gov.co/VisorSUIT/index.jsf?FI=20602",
+        "resultado":"Registro de plantaciones forestales protectoras, que se obtiene en 60 Día(s) - hábil(es)",
+        "ciudadano":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Cedula de ciudadania",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"condicion",
+                        "titulo":"Ser propietario del predio"
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Ubicación del predio: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Area o kilómetros de cerca viva: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Año de establecimiento: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"formulario",
+                        "titulo":"FORMATO_AUTOLIQUIDACION_CATEGORIA 1",
+                        "url":"http://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?F=2826&A=102314"
+                    },
+                    {
+                        "type":"formulario",
+                        "titulo":"Formato Solicitud Registro de Plantaciones Forestales",
+                        "url":"http://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?F=5783&A=99594"
+                    },
+                    {
+                        "type":"formulario",
+                        "titulo":"Formato solicitud de salvoconducto para cercas vivas",
+                        "url":"http://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?F=5784&A=99596"
+                    }
+                ],
+                "casos":[
+                    {
+                        "titulo":"En caso de no ser propietario del predio",
+                        "subpasos":[
+                            {
+                                "type":"documento",
+                                "titulo":"Ubicación del predio: 1 Original(es)",
+                                "anotaciones":""
+                            }
+                        ]
+                    },
+                    {
+                        "titulo":"En caso de ser el tenedor del predio",
+                        "subpasos":[
+                            {
+                                "type":"documento",
+                                "titulo":"Autorización del propietario o poseedor del predio:1 Original(es)",
+                                "anotaciones":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluacion",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"Para proyectos con un valor superior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido en el artículo 96 de la ley 633 de 2000. Para proyectos con un valor inferior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido la Res. 1280 de 2010 y la Res. 711 de 2019 emitida por la Corporación Autónoma Regional de Chivor – CORPOCHIVOR.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Constatación de la localización del cultivo, especies, área de la plantación, en lo posible, con la respectiva georeferenciación"
+                    }
+                ]
+            }
+        ],
+        "extranjero":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Cédula de extranjería: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"condicion",
+                        "titulo":"Ser propietario del predio"
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Ubicación del predio: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Area o kilómetros de cerca viva: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Año de establecimiento: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    }
+                ],
+                "casos":[
+                    {
+                        "titulo":"En caso de no ser propietario del predio",
+                        "subpasos":[
+                            {
+                                "type":"documento",
+                                "titulo":"Ubicación del predio: 1 Original(es)",
+                                "anotaciones":""
+                            }
+                        ]
+                    },
+                    {
+                        "titulo":"En caso de ser el tenedor del predio",
+                        "subpasos":[
+                            {
+                                "type":"documento",
+                                "titulo":"Autorización del propietario o poseedor del predio:1 Original(es)",
+                                "anotaciones":""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluacion",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"Para proyectos con un valor superior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido en el artículo 96 de la ley 633 de 2000. Para proyectos con un valor inferior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido la Res. 1280 de 2010 y la Res. 711 de 2019 emitida por la Corporación Autónoma Regional de Chivor – CORPOCHIVOR.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Constatación de la localización del cultivo, especies, área de la plantación, en lo posible, con la respectiva georeferenciación"
+                    }
+                ]
+            }
+        ],
+        "institucion":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Ser propietario del predio"
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Ubicación del predio: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Area o kilómetros de cerca viva: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Año de establecimiento: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"formulario",
+                        "titulo":"FORMATO_AUTOLIQUIDACION_CATEGORIA 2",
+                        "url":"http://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?F=2827&A=102312"
+                    },
+                    {
+                        "type":"formulario",
+                        "titulo":"Formato Solicitud Registro de Plantaciones Forestales",
+                        "url":"http://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?F=5783&A=99594"
+                    },
+                    {
+                        "type":"formulario",
+                        "titulo":"Formato solicitud de salvoconducto para cercas vivas",
+                        "url":"http://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?F=5784&A=99596"
+                    }
+                ],
+                "casos":[
+                    {
+                        "titulo":"En caso de ser el tenedor del predio",
+                        "subpasos":[
+                            {
+                                "type":"documento",
+                                "titulo":"Autorización del propietario o poseedor del predio:1 Original(es)",
+                                "anotaciones":""
+                            }
+                        ]
+                    },
+                    {
+                        "titulo":"Realizar el pago de la evaluacion",
+                        "subpasos":[
+                            {
+                                "type":"pago",
+                                "descripcion":"Para proyectos con un valor superior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido en el artículo 96 de la ley 633 de 2000. Para proyectos con un valor inferior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido la Res. 1280 de 2010 y la Res. 711 de 2019 emitida por la Corporación Autónoma Regional de Chivor – CORPOCHIVOR.",
+                                "tipoMoneda":"Pesos ($)",
+                                "tipoValor":"Avalúo y/o liquidación",
+                                "cantidad":"NA",
+                                "valor":"NA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"No debe presentar ningún soporte ya que la institución verificará que usted la cumpla , Constatación de la localización del cultivo, especies, área de la plantación, en lo posible, con la respectiva georeferenciación"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Constatación de la localización del cultivo, especies, área de la plantación, en lo posible, con la respectiva georeferenciación"
+                    }
+                ]
+            }
+        ],
+        "organizaciones":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Estar inscrito en la cámara de comercio como persona jurídica"
+                    },
+                    {
+                        "type":"condicion",
+                        "titulo":"Ser propietario del predio"
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Ubicación del predio: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Area o kilómetros de cerca viva: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Año de establecimiento: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"formulario",
+                        "titulo":"FORMATO_AUTOLIQUIDACION_CATEGORIA 2",
+                        "url":"http://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?F=2827&A=102312"
+                    }
+                ],
+                "casos":[
+                    {
+                        "titulo":"En caso de ser el tenedor del predio",
+                        "subpasos":[
+                            {
+                                "type":"documento",
+                                "titulo":"Autorización del propietario o poseedor del predio:1 Original(es)",
+                                "anotaciones":""
+                            }
+                        ]
+                    },
+                    {
+                        "titulo":"Realizar el pago de la evaluacion",
+                        "subpasos":[
+                            {
+                                "type":"pago",
+                                "descripcion":"Para proyectos con un valor superior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido en el artículo 96 de la ley 633 de 2000. Para proyectos con un valor inferior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido la Res. 1280 de 2010 y la Res. 711 de 2019 emitida por la Corporación Autónoma Regional de Chivor – CORPOCHIVOR.",
+                                "tipoMoneda":"Pesos ($)",
+                                "tipoValor":"Avalúo y/o liquidación",
+                                "cantidad":"NA",
+                                "valor":"NA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"No debe presentar ningún soporte ya que la institución verificará que usted la cumpla , Constatación de la localización del cultivo, especies, área de la plantación, en lo posible, con la respectiva georeferenciación"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Constatación de la localización del cultivo, especies, área de la plantación, en lo posible, con la respectiva georeferenciación"
+                    }
+                ]
+            }
+        ]
+    },
     "T19818":{
         "titulo":"Permiso de emisión atmosférica para fuentes fijas",
         "descripcion":"Autorización para realizar emisiones al aire dentro de los límites permisibles establecidos en las normas ambientales.",
@@ -6625,7 +6994,622 @@ export const Tramites : any = {
             }
         ]
     },
-    
+    "T44016":{
+        "titulo":"Certificación ambiental para la habilitación de los centros de diagnóstico automotor",
+        "descripcion":"Obtener la certificación con destino al Ministerio de Transporte en la que se indique que el Centro de Diagnóstico Automotor cumple con las condiciones ambientales en materia de revisión de gases, con fundamento en las Normas Técnicas Colombianas",
+        "url":"http://visor.suit.gov.co/VisorSUIT/index.jsf?FI=44016",
+        "resultado":"Certificación del cumplimiento de las exigencias ambientales en materia de revisión de gases, que se obtiene en 60 Día(s) - calendario",
+        "organizacion":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Solicitud escrita: 1 Original(es)",
+                        "anotaciones":"Anotaciones Adicionales: Indicando nombre o razón social del solicitante y del representante legal o apoderado, si los hubiere, con indicación de su domicilio"
+                    },
+                    {
+                        "type":"condicion",
+                        "titulo":"Estar inscrito en la cámara de comercio como persona jurídica"
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Documento técnico: 1 Original(es) (Documento técnico)",
+                        "anotaciones":"Anotaciones Adicionales: De acuerdo a la Norma Técnica Colombiana NTC-5385, Centro de Diagnostico Automotor; la Norma Técnica Colombiana NTC-5375, Revisión Técnico-Mecánica y de emisiones contaminantes en vehículos automotores y la Norma Técnica Colombiana NTC-5365, Calidad de Aire"
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Listado de los equipos : 1 Original(es)",
+                        "anotaciones":"Anotaciones Adicionales: indicando marca, modelo, serie, y aspectos técnicos"
+                    },
+                    {
+                        "type":"formulario",
+                        "titulo":"FORMATO_AUTOLIQUIDACION_CATEGORIA 2",
+                        "url":"http://tramites1.suit.gov.co/registro-web/suit_descargar_archivo?F=2827&A=102312"
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"Para proyectos con un valor superior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido en el artículo 96 de la ley 633 de 2000. Para proyectos con un valor inferior a 2.115 SMMLV, la tarifa de evaluación se liquida según lo establecido la Res. 1280 de 2010 y la Res. 711 de 2019 emitida por la Corporación Autónoma Regional de Chivor – CORPOCHIVOR",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Presentar información adicional, en caso de requerirse",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Esperar la verificación de los documentos aportados por parte de la autoridad ambiental",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Los equipos deben cumplir con las normas técnicas ambientales"
+                    }
+                ]
+            }
+        ]
+    },
+    "T27128":{
+        "titulo":"Plan de manejo de restauración y recuperación ambiental",
+        "descripcion":"Obtener la aprobación de las estrategias, acciones y técnicas aplicables a las zonas intervenidas por la minería con el fin de corregir, mitigar, y compensar los impactos y efectos ambientales ocasionados, que permitan adecuar las áreas hacia un cierre definitivo y uso postminería",
+        "url":"http://visor.suit.gov.co/VisorSUIT/index.jsf?FI=27128",
+        "resultado":"Aprobación del plan de manejo de restauración y recuperación ambiental, que se obtiene en 360 Día(s) - calendario",
+        "ciudadano":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Solicitud de establecimiento de plan de manejo de restauracion y recuperacion ambiental: 1 original",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Plan de manejo, recuperación o restauración ambiental: 1 Original(es)",
+                        "anotaciones":"Anotaciones Adicionales: Indicando: 1) Descripción explicativa del proyecto, obra o actividad, que incluya por lo menos su localización, dimensión y costo estimado de inversión y operación. 2) Descripción de las características ambientales generales en el área de localización del proyecto, obra o actividad"
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Documento técnico de la descripción general del plan de manejo: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Plano de localización del proyecto, obra o actividad: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Registro mínero: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Cédula de ciudadanía : 1 Fotocopia(s)",
+                        "anotaciones":""
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"La Tarifa de Evaluación y/o seguimiento de conformidad con lo dispuesto en el artículo 96 de la Ley 633 de 2000, incluye los Honorarios, Viáticos, gastos de viaje y análisis y estudios que le implican a la Corporación atender la solicitud.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Se verificará la información aportada por el solicitante"
+                    }
+                ]
+            }
+        ],
+        "extranjero":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Solicitud de establecimiento de plan de manejo de restauracion y recuperacion ambiental: 1 original",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Plan de manejo, recuperación o restauración ambiental: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Documento técnico de la descripción general del plan de manejo: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Plano de localización del proyecto, obra o actividad: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Registro mínero: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Cédula de extranjería : 1 Fotocopia(s)",
+                        "anotaciones":""
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"La Tarifa de Evaluación y/o seguimiento de conformidad con lo dispuesto en el artículo 96 de la Ley 633 de 2000, incluye los Honorarios, Viáticos, gastos de viaje y análisis y estudios que le implican a la Corporación atender la solicitud.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true",
+                        "web":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Se verificará la información aportada por el solicitante"
+                    }
+                ]
+            }
+        ],
+        "institucion":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Solicitud de establecimiento de plan de manejo de restauracion y recuperacion ambiental: 1 original",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Plan de manejo, recuperación o restauración ambiental: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Documento técnico de la descripción general del plan de manejo: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Plano de localización del proyecto, obra o actividad: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Registro mínero: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"La Tarifa de Evaluación y/o seguimiento de conformidad con lo dispuesto en el artículo 96 de la Ley 633 de 2000, incluye los Honorarios, Viáticos, gastos de viaje y análisis y estudios que le implican a la Corporación atender la solicitud.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true",
+                        "web":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Se verificará la información aportada por el solicitante"
+                    }
+                ]
+            }
+        ],
+        "organizacion":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Solicitud de establecimiento de plan de manejo de restauracion y recuperacion ambiental: 1 original",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Plan de manejo, recuperación o restauración ambiental: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Documento técnico de la descripción general del plan de manejo: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Plano de localización del proyecto, obra o actividad: 1 Original(es)",
+                        "anotaciones":""
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Registro mínero: 1 Fotocopia(s)",
+                        "anotaciones":""
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"La Tarifa de Evaluación y/o seguimiento de conformidad con lo dispuesto en el artículo 96 de la Ley 633 de 2000, incluye los Honorarios, Viáticos, gastos de viaje y análisis y estudios que le implican a la Corporación atender la solicitud.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true",
+                        "web":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Recibir visita",
+                "subpasos":[
+                    {
+                        "type":"condicion",
+                        "titulo":"Se verificará la información aportada por el solicitante"
+                    }
+                ]
+            }
+        ]
+    },
+    "T29987":{
+        "titulo":"Plan de contingencia para el manejo de derrames de hidrocarburos o sustancias nocivas",
+        "descripcion":"Obtener la aprobación de las acciones que se deben ejecutar ante la ocurrencia de eventos de derrames en la actividad de transporte y/o almacenamiento de hidrocarburos o sustancias nocivas para la salud y recursos hidrobiológicos.",
+        "url":"http://visor.suit.gov.co/VisorSUIT/index.jsf?FI=29987",
+        "resultado":"Aprobación del plan de contingencia, que se obtiene en 80 Día(s) - hábil(es)",
+        "ciudadano":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Plan de contingencia que contenga como mínimo tres capítulos básicos: 1 Original(es)",
+                        "anotaciones":"Anotaciones Adicionales: El Plan Estratégico contiene la filosofía, los objetivos, el alcance del Plan, su cobertura geográfica, organización, asignación de responsabilidades y los niveles de respuesta. El Plan Operativo establece los procedimientos básicos de la operación y define las bases y mecanismos de notificación, organización, funcionamiento y apoyo del Plan de Contingencia a los planes locales o a la eventual activación inmediata de su estructura de nivel tres (3). El Plan Informático establece las bases sobre el manejo de información, para que los planes estratégicos y operativos sean eficientes, a partir de la recopilación y actualización permanente a cargo del Comité Técnico Nacional del Plan de Contingencia sobre los requerimientos de información"
+                    },
+                    {
+                        "type":"documento",
+                        "titulo":"Cédula de ciudadanía : 1 Fotocopia(s)",
+                        "anotaciones":""
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"La Tarifa de Evaluación y/o seguimiento de conformidad con lo dispuesto en el artículo 96 de la Ley 633 de 2000, incluye los Honorarios, Viáticos, gastos de viaje y análisis y estudios que le implican a la Corporación atender la solicitud.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Presentar información adicional, en caso de requerirse",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true",
+                        "web":"true"
+                    }
+                ]
+            }
+        ],
+        "extranjero":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Plan de contingencia que contenga como mínimo tres capítulos básicos: 1 Original(es)",
+                        "anotaciones":"Anotaciones Adicionales: El Plan Estratégico contiene la filosofía, los objetivos, el alcance del Plan, su cobertura geográfica, organización, asignación de responsabilidades y los niveles de respuesta. El Plan Operativo establece los procedimientos básicos de la operación y define las bases y mecanismos de notificación, organización, funcionamiento y apoyo del Plan de Contingencia a los planes locales o a la eventual activación inmediata de su estructura de nivel tres (3). El Plan Informático establece las bases sobre el manejo de información, para que los planes estratégicos y operativos sean eficientes, a partir de la recopilación y actualización permanente a cargo del Comité Técnico Nacional del Plan de Contingencia sobre los requerimientos de información"
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"La Tarifa de Evaluación y/o seguimiento de conformidad con lo dispuesto en el artículo 96 de la Ley 633 de 2000, incluye los Honorarios, Viáticos, gastos de viaje y análisis y estudios que le implican a la Corporación atender la solicitud.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Presentar información adicional, en caso de requerirse",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true",
+                        "web":"true"
+                    }
+                ]
+            }
+        ],
+        "institucion":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Plan de contingencia que contenga como mínimo tres capítulos básicos: 1 Original(es)",
+                        "anotaciones":"Anotaciones Adicionales: El Plan Estratégico contiene la filosofía, los objetivos, el alcance del Plan, su cobertura geográfica, organización, asignación de responsabilidades y los niveles de respuesta. El Plan Operativo establece los procedimientos básicos de la operación y define las bases y mecanismos de notificación, organización, funcionamiento y apoyo del Plan de Contingencia a los planes locales o a la eventual activación inmediata de su estructura de nivel tres (3). El Plan Informático establece las bases sobre el manejo de información, para que los planes estratégicos y operativos sean eficientes, a partir de la recopilación y actualización permanente a cargo del Comité Técnico Nacional del Plan de Contingencia sobre los requerimientos de información"
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"La Tarifa de Evaluación y/o seguimiento de conformidad con lo dispuesto en el artículo 96 de la Ley 633 de 2000, incluye los Honorarios, Viáticos, gastos de viaje y análisis y estudios que le implican a la Corporación atender la solicitud.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Presentar información adicional, en caso de requerirse",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true",
+                        "web":"true"
+                    }
+                ]
+            }
+        ],
+        "organizacion":[
+            {
+                "titulo":"Reunir los documentos y cumplir las condiones necesarias para realizar el trámite",
+                "subpasos":[
+                    {
+                        "type":"documento",
+                        "titulo":"Plan de contingencia que contenga como mínimo tres capítulos básicos: 1 Original(es)",
+                        "anotaciones":"Anotaciones Adicionales: El Plan Estratégico contiene la filosofía, los objetivos, el alcance del Plan, su cobertura geográfica, organización, asignación de responsabilidades y los niveles de respuesta. El Plan Operativo establece los procedimientos básicos de la operación y define las bases y mecanismos de notificación, organización, funcionamiento y apoyo del Plan de Contingencia a los planes locales o a la eventual activación inmediata de su estructura de nivel tres (3). El Plan Informático establece las bases sobre el manejo de información, para que los planes estratégicos y operativos sean eficientes, a partir de la recopilación y actualización permanente a cargo del Comité Técnico Nacional del Plan de Contingencia sobre los requerimientos de información"
+                    }
+                ]
+            },
+            {
+                "titulo":"Realizar el pago de la evaluación",
+                "subpasos":[
+                    {
+                        "type":"pago",
+                        "descripcion":"La Tarifa de Evaluación y/o seguimiento de conformidad con lo dispuesto en el artículo 96 de la Ley 633 de 2000, incluye los Honorarios, Viáticos, gastos de viaje y análisis y estudios que le implican a la Corporación atender la solicitud.",
+                        "tipoMoneda":"Pesos ($)",
+                        "tipoValor":"Avalúo y/o liquidación",
+                        "cantidad":"NA",
+                        "valor":"NA"
+                    }
+                ]
+            },
+            {
+                "titulo":"Radicar la documentación",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Presentar información adicional, en caso de requerirse",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true"
+                    }
+                ]
+            },
+            {
+                "titulo":"Comunicarse y/o notificarse del auto de inicio del tramite",
+                "subpasos":[
+                    {
+                        "type":"canal",
+                        "presencial":"true",
+                        "web":"true"
+                    }
+                ]
+            }
+        ]
+    }
 }
 
 export function getTramite(id : string){

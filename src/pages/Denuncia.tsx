@@ -1,4 +1,4 @@
-import { IonAlert, IonButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonCol, IonContent, IonGrid, IonHeader,IonIcon,IonItem,IonLabel,IonList,IonMenuButton, IonPage, IonRow, IonSelect, IonSelectOption, IonTextarea, IonTitle, IonToolbar } from "@ionic/react";
+import { IonAlert, IonButton, IonButtons, IonCard, IonContent, IonHeader,IonIcon,IonItem,IonLabel,IonList,IonMenuButton, IonPage, IonSelect, IonSelectOption, IonTextarea, IonTitle, IonToolbar } from "@ionic/react";
 import * as icons from "ionicons/icons";
 import React, { useState } from "react";
 import './PQRS.css'

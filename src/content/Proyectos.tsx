@@ -2,7 +2,7 @@ const Proyectos : any[] = [
   {
     "color": "vigilance",
     "id" : "vigilancia",
-    "titulo": "AUTORIDAD AMBIENTAL: CONTROL, VIGILANCIA Y SEGUIMIENTO DE LOS RECURSOS NATURALES",
+    "titulo": "601-AUTORIDAD AMBIENTAL: CONTROL, VIGILANCIA Y SEGUIMIENTO DE LOS RECURSOS NATURALES",
     "lider": "Alexandra Garzón Sarmiento",
     "grupos": [
       {
@@ -18,7 +18,7 @@ const Proyectos : any[] = [
   {
     "color": "education",
     "id" : "educacion",
-    "titulo": "EDUCACIÓN AMBIENTAL Y PARTICIPACIÓN CIUDADANA",
+    "titulo": "602-EDUCACIÓN AMBIENTAL Y PARTICIPACIÓN CIUDADANA",
     "lider": "Rodrigo Parra Galindo",
     "grupos": [
       {
@@ -38,7 +38,7 @@ const Proyectos : any[] = [
   {
     "color": "territory",
     "id" : "territorio",
-    "titulo": "PLANIFICACIÓN Y ORDENAMIENTO AMBIENTAL DEL TERRITORIO",
+    "titulo": "603-PLANIFICACIÓN Y ORDENAMIENTO AMBIENTAL DEL TERRITORIO",
     "lider": "Zonia Buitrago",
     "grupos": [
       {
@@ -54,7 +54,7 @@ const Proyectos : any[] = [
   {
     "color": "management",
     "id" : "gestion",
-    "titulo": "FORTALECIMIENTO PARA LA GESTIÓN AMBIENTAL",
+    "titulo": "604-FORTALECIMIENTO PARA LA GESTIÓN AMBIENTAL",
     "lider": "Yanid Avila",
     "grupos": [
       {
@@ -70,7 +70,7 @@ const Proyectos : any[] = [
   {
     "color": "hydric",
     "id" : "hidrico",
-    "titulo": "ADMINISTRACIÓN Y MANEJO ADECUADO DEL RECURSO HÍDRICO",
+    "titulo": "701-ADMINISTRACIÓN Y MANEJO ADECUADO DEL RECURSO HÍDRICO",
     "lider": "Karen Perilla",
     "grupos": [
       {
@@ -86,7 +86,7 @@ const Proyectos : any[] = [
   {
     "color": "woods",
     "id" : "bosques",
-    "titulo": "GESTIÓN INTEGRAL DEL RECURSO FORESTAL",
+    "titulo": "801-GESTIÓN INTEGRAL DEL RECURSO FORESTAL",
     "lider": "Nestor Valero",
     "grupos": [
       {
@@ -98,7 +98,7 @@ const Proyectos : any[] = [
   {
     "color": "biodiversity",
     "id" : "biodiversidad",
-    "titulo": "ECOSISTEMAS, ESTRÁTEGICOS Y BIODIVERSIDAD",
+    "titulo": "802-ECOSISTEMAS, ESTRÁTEGICOS Y BIODIVERSIDAD",
     "lider": "Nixon Sarmiento",
     "grupos": [
       {
@@ -126,7 +126,7 @@ const Proyectos : any[] = [
   {
     "color": "weather",
     "id" : "climatico",
-    "titulo": "CAMBIO CLIMATICO Y GESTIÓN DEL RIESGO",
+    "titulo": "901-CAMBIO CLIMATICO Y GESTIÓN DEL RIESGO",
     "lider": "Edgar Iván Lopéz ",
     "grupos": [
       {
@@ -142,7 +142,7 @@ const Proyectos : any[] = [
   {
     "color": "business",
     "id" : "negocios",
-    "titulo": "NEGOCIOS VERDES",
+    "titulo": "1001-NEGOCIOS VERDES",
     "lider": "Mario Barreto",
     "grupos": [
       {
@@ -178,7 +178,7 @@ const Proyectos : any[] = [
   {
     "color": "economy",
     "id" : "economia",
-    "titulo": "ECONOMÍA CIRCULAR",
+    "titulo": "1001-ECONOMÍA CIRCULAR",
     "lider": "Jorge Castillo",
     "grupos": [
       {

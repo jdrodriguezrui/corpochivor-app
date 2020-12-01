@@ -39,7 +39,7 @@ export const Proyecto : React.FC<any> = () =>{
           {
             data.grupos.map((grupo:any,index:number)=>{
               return(
-                <IonCard>
+                <IonCard key={index}>
                   <IonLabel color="dark">
                     <h2>{grupo.titulo}</h2>
                   </IonLabel>

@@ -7,7 +7,7 @@ const canalInfo : any = {
   "presencial" : {
     "titulo" : "Punto de atención Corpochivor",
     "direccion" : "Carrera 5 No. 10-125	.Garagoa, Boyacá",
-    "telefono"  : "(8) 7500771"
+    "telefono"  : "(8) 7502189 – 7501951 – 7501356"
   },
   "web" : {
     "titulo" : "Ventanilla Integral de Trámites Ambientales en Línea - VITAL",

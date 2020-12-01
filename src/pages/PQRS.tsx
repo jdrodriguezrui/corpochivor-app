@@ -1,4 +1,4 @@
-import { IonButton, IonButtons, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonCol, IonContent, IonGrid, IonHeader,IonIcon,IonItem,IonLabel,IonList,IonMenuButton, IonPage, IonRow, IonTitle, IonToolbar } from "@ionic/react";
+import { IonButtons, IonCard, IonCardContent, IonContent,IonHeader,IonIcon,IonLabel,IonMenuButton, IonPage, IonTitle, IonToolbar } from "@ionic/react";
 import * as icons from "ionicons/icons";
 import React from "react";
 import './PQRS.css'
@@ -17,6 +17,9 @@ const PQRS: React.FC = () => {
 
 
       <IonContent fullscreen>
+        <IonCard>
+          <IonLabel>Será redirigido al portal de PQRS de la corporación</IonLabel>
+        </IonCard>
         <IonCard className="pqrscard" href="https://pqrd.corpochivor.gov.co/open.php" color="hydric">
           <IonCardContent>
             <IonIcon className="pqrsicon" md={icons.paperPlane} ios={icons.paperPlane}/>
